@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utstyrsregister</title>
+    <link rel="stylesheet" href="lager.css">
+    <script src="lager.js"></script>
+
+</head>
+<body>
+    <div class="container">
+        <h1>Utstyrsregister</h1>
+        <h2>Legg til nytt utstyr</h2>
+        <input type="text" id="equipmentName" placeholder="Utstyr navn">
+        <input type="file" id="equipmentImage" accept="image/*">
+        <button onclick="addEquipment()">Legg til</button>
+        
+        <h2>Liste over utstyr</h2>
+        <div class="equipment-list" id="equipmentList"></div>
+    </div>
+    
+
+</body>
+</html>

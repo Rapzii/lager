@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #ccddff;
+    text-align: center;
+    color: white;
+}
+.container {
+    max-width: 900px;
+    margin: auto;
+    background: #4d4c4c;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.equipment-list {
+    margin-top: 20px;
+}
+.equipment-item {
+    border: 1px solid #999;
+    padding: 20px;
+    margin: 12px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #172024;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    color: white;
+}
+.button-group button {
+    padding: 10px 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.button-group button:first-child {
+    background-color: #512da8;
+    color: white;
+}
+.button-group button:last-child {
+    background-color: #d32f2f;
+    color: white;
+}
+input {
+    padding: 14px;
+    width: calc(100% - 28px);
+    margin-bottom: 18px;
+    border: 1px solid #bbb;
+    border-radius: 10px;
+    background: #616161;
+    color: white;
+}
+button {
+    padding: 14px;
+    background: #512da8;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.image-preview {
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
